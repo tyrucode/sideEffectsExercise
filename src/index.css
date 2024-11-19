@@ -1,0 +1,30 @@
+.star {
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: transform 2s;
+    color: #eeff00c4;
+    border-radius: 50%;
+}
+
+.star:hover {
+    outline: none;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+
+.space {
+    width: 100vw;
+    height: 100vh;
+    background-color: #03090e;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
